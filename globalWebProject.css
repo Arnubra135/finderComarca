@@ -1,0 +1,57 @@
+:root{
+    --black-color-opaco: rgba(0, 0, 0, 0.4);
+}
+
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #f96161;
+}
+
+.comarca{
+    position: relative;
+    top: 160px;
+    left: 15%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: white;
+    width: 26%;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.comarca .input-comarca{
+    height: 30px;
+}
+
+.btn{
+    height: 30px;
+    background-color: #f96161;
+    border:solid 2px #6b4423;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+.btn:hover{
+    color: black;
+    position: relative;
+    top: -8px;
+}
+
+.header{
+    background-color: #6b432396;
+    color: white;
+    display: grid;
+    align-items: center;
+    height: 50px;
+}
